@@ -1,0 +1,908 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Jacob Muganda developed me in 2023, for his final year project"
+                   	],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me MERU Chatbot.",
+                                "I'm University Enquiry Chatbot",
+                                "I'm Meru University Virtual Assistant",
+                                "I'm MERU Chatbot aka University Enquiry Chatbot"
+			],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of University",
+                                "what is University timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the University open",
+                                "University timing",
+                                "what about University timing",
+                                "is University open on saturday",
+                                "tell something about University timing",
+                                "what is the University  hours",
+                                "when should i come to University",
+                                "when should i attend University",
+                                "what is my University time",
+                                "University timing",
+                                "timing University"
+                        ],
+                        "responses": [
+                                "University is open from 8am to 5pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+
+                                "more info",
+                                "contact info",
+                                "how to contact University",
+                                "University telephone number",
+                                "University number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "P.O BOX ,972-60200 Meru Kenya Phone: +254799529958 +254799529959 +254712524293 Email: info@must.ac.ke"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in MERU",
+                                "what are the courses offered in your University?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in MERU",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at MERU?",
+                                "branches available at MERU?",
+                                "what are the courses in MERU?",
+                                "what are branches in MERU?",
+                                "what are courses in MERU?",
+                                "branches available in MERU?",
+                                "can you tell me the courses available in MERU?",
+                                "can you tell me the branches available in MERU?",
+                                "Civil engineering?",
+                                "Computer engineering?",
+                                "IT engineering?",
+                                "Automobile engineering?",
+                                "Mechanical engineering?",
+                                "EXTC engineering?",
+                                "Electrical engineering?",
+                                "civil",
+                                "it",
+                                "IT",
+                                "Computer",
+                                "Automobile",
+                                "Mechanical",
+                                "EXTC",
+                                "Electrical",
+                                "Comps",
+                                "Auto",
+                                "Mech",
+                                "extc"
+                        ],
+                        "responses": [
+                                "Bachelors Programmes provided are Civil Engineering, Computer Engineering, Electrical Engineering,  Information Technology ,Mechanical Engineering and Applied Sciences.For more details visit<a target=\"_blank\" href=\"https://phcet.ac.in/academics/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "University fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees",
+                                "fees fe",
+                                "fees se",
+                                "fees te",
+                                "fees be",
+                                "fees me",
+                                "fees comps",
+                                "fees it",
+                                "fees mech",
+                                "fees auto",
+                                "fees extc",
+                                "fees electrical",
+                                "fees computer",
+                                "fees mechanical",
+                                "fees automobile",
+                                "fees open fe",
+                                "fees open se",
+                                "fees open te",
+                                "fees open be"
+                        ],
+                        "responses": [
+                                "For Fee details visit <a target=\"_blank\" href=\"https://phcet.ac.in/academics/admissions/fee-structure/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the University located",
+                                "how can i locate the Univesity",
+                                "University is located at",
+                                "where is University",
+                                "where is University located",
+                                "address of University",
+                                "how to reach University",
+                                "University location",
+                                "University address",
+                                "wheres the University",
+                                "how can I reach University",
+                                "whats is the University address",
+                                "what is the address of University",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Khalapur, HOC Colony Rd, Taluka, Rasayani, Maharashtra 410207 For more details visit <a target=\"_blank\" href=\"https://goo.gl/maps/nABAciXu58ty7PyX6\"> here</a>"
+																			
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does University provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from University",
+                                "hostel University distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between University and hostel",
+                                "distance between hostel and University"
+                        ],
+                        "responses": [
+				"MERU provides safe and affordable hostel facilities for boys and girls. For more details visit <a target=\"_blank\" href=\"https://phcet.ac.in/about/infrastructure-and-facilities/hostel-facility/\"> here</a>"
+                        													
+				   ],
+                        "context_set": ""
+                },
+                 {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "infrastructure",
+                                "building",
+                                "number of floors in bulding",
+                                "University infrastructure",
+                                "departments and labs",
+                                "departments",
+                                "labs",
+                                "canteen",
+                                "infrastructure MERU",
+                                "tell me about infrastructure",
+                                "what about infrastructure"
+                        ],
+                        "responses": [
+                                " For campus tour please visit the following link.<a target=\"_blank\" href=\"https://phcet.ac.in/about/infrastructure-and-facilities/campus-tour/\"> here</a>",
+                                "For infrastructure details visit <a target=\"_blank\" href=\"https://phcet.ac.in/about/infrastructure-and-facilities/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in University",
+                                "list of events conducted in University",
+                                "What events are conducted in University",
+                                "Are there any event held at University",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Our University organizes various events during academics.Many Events are useful for technical skils and placements activities.There are many events which are held by deparments.<a target=\"_blank\" href=\"https://phcet.ac.in/news-and-events/news-notifications/\"> here</a>",
+                                "Our MERU organizes FESTIVAL every year.There are major 2 fest in our University.1)EUFORIA 2)TECH-EUFORIA. Visit <a target=\"_blank\" href=\"https://phcet.ac.in/news-and-events/news-notifications/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "To know more about documents required visit<a target=\"_blank\" href=\"https://phcet.ac.in/academics/admissions/list-of-document-required/\"> here</a>"
+                        ],						
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for IT",
+                                "what is the Information Technology syllabus",
+                                "syllabus",
+                                "timetable",
+                                "what is IT syllabus",
+                                "syllabus",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "Syllabus of all years and departments is available in the link below. <a target=\"_blank\" href=\"https://phcet.ac.in/academics/syllabus/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the University have library facility",
+                                "University library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "MERU has a huge and spacious library on the second floor. For more details visit <a target=\"_blank\" href=\"https://phcet.ac.in/library/library-information/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in University",
+                                "Does University have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "MERU has canteens and cafeteria with variety of food available. <a target=\"_blank\" href=\"https://phcet.ac.in/about/infrastructure-and-facilities/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in University canteen",
+                                "what foods can we get in University canteen"
+                        ],
+                        "responses": [
+                                "The University canteen serves Tea, Coffee, Vada Pav, Misal Pav, Bread Pakoda, Thaali, Samosa, Dal Rice, Biryani and many more dishes."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is University placement",
+                                "Which companies visit in University",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "Various companies are coming to recruite our students and offer maximum packages.MAIN RECRUITERS are TCS,RELIANCE JIO,L AND T INFOTECH etc.For more information visit <a target=\"_blank\" href=\"https://phcet.ac.in/students/placements/our-recruiters/\">here</a>",
+                                "Our University oragnise various activities related to placements.For latest update visit <a target=\"_blank\" href=\"https://phcet.ac.in/students/placements/placement-cell-activities/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ithod",
+                        "patterns": [
+                                "Who is IT HOD",
+                                "Where is IT HOD",
+                                "it hod",
+                                "name of it hod"
+                        ],
+                        "responses": [
+                                "Mr. Amol N. Karande is IT HOD who is available on the 4th floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "civilhod",
+                        "patterns": [
+                                "Who is Civil HOD",
+                                "Where is civil HOD",
+                                "civil hod",
+                                "name of civil hod"
+                        ],
+                        "responses": [
+                                "Dr. Amit Das Gupta is Civil HOD who is available on 5th floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mechhod",
+                        "patterns": [
+                                "Who is Mechanical HOD",
+                                "Where is  mechanical HOD",
+                                "mechanical hod",
+                                "name of mechanical hod"
+                        ],
+                        "responses": [
+                                "Dr. Gajendra Vasantrao Patil is Mechanical HOD who is available on 3rd floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "comphod",
+                       "patterns": [
+                               "Who is Computer HOD",
+                               "Where is  Computer HOD",
+                               "computer hod",
+                               "name of computer hod"
+                       ],
+                       "responses": [
+                               "Dr. Mutua is Computer HOD who is available at Academic block 1. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "autohod",
+                       "patterns": [
+                               "Who is Automobile HOD",
+                               "Where is Automobile HOD",
+                               "automobile hod",
+                               "name of automobile hod"
+                       ],
+                       "responses": [
+                               "Mr. Vivek Meshram is Automobile HOD who is available on 3rd floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                       "tag": "elechod",
+                       "patterns": [
+                               "Who is Electrical HOD",
+                               "Where is Electrical HOD",
+                               "electrical hod",
+                               "name of electrical hod"
+                       ],
+                       "responses": [
+                               "Dr. Panimaya Selvi Isabel A. is Electrical HOD who is available on 5th floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                      "tag": "extchod",
+                      "patterns": [
+                              "Who is EXTC HOD",
+                              "Where is EXTC HOD",
+                              "extc hod",
+                              "name of extc hod"
+                      ],
+                      "responses": [
+                              "Dr. Mansi S. Subhedar is EXTC HOD who is available on 1st floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                      "tag": "fehod",
+                      "patterns": [
+                              "Who is FE HOD",
+                              "Where is FE HOD",
+                              "fe hod",
+                              "name of fe hod"
+                      ],
+                      "responses": [
+                              "Dr. Manvendra Vashisht is FE/ASH HOD who is available on Ground floor. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Vicechancellor",
+                        "patterns": [
+                                "what is the name of Vice Chancellor",
+                                "whatv is the VC name",
+                                "vc name",
+                                "Who is University head",
+                                "Where is vc's office",
+                                "vc",
+                                "vice chancellor",
+                                "name of vice chancellor"
+                        ],
+                        "responses": [
+                                "Prof Romanus Odhiambo is the University Vice Chancellor who is available on 1st floor in Admission block. To know more visit <a target=\"_blank\" href=\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your University",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process",
+                                "eligibility for admission",
+                                "eligibility",
+                                "what is the eligibility",
+                                "eligibility criteria",
+                                "eligibility criteria for enigineering",
+                                "admission engineering"
+                        ],
+                        "responses": [
+                                "Application is also processed online through the Meru Unversity. Refer <a href=https://phcet.ac.in/academics/admissions/admissions-and-eligibility>website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities University provide",
+                                "College facility",
+                                "What are University facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "MERU provides Labs with internet connection, smart classroom, Auditorium, library,canteen. Labs are equipped with modern technologies. Also there is bus facility for the students and faculty"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "University intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is University intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "For Computer and Civil, the intake is 120.For IT, Electrical, EXTC and Automobile 60 per batch. Mechanical Department has 180 students intake. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "University dress code",
+                                "University dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does University have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "MERU does not have uniform"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "I am not program for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker"
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding University",
+                                "You can ask me questions regarding University, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in University",
+                                "does University have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our University provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD IT)"
+                        ]
+                },
+                {
+                        "tag":"dean",
+                        "patterns":[
+                                "dean",
+                                "hod dean",
+                                "who is the dean"
+                        ],
+                        "responses":[
+                                "Dean heads each school, please be more specific like: (SCHOOL OF ENGINEERING)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "dtc bus route",
+                                "mode of transportation",
+                                "how to get to University",
+                                "buses for University",
+                                "University buses",
+                                "bus routes",
+                                "list of buses for travelling"    
+                        ],
+                        "responses":[
+                                "MERU provides bus facility to students when going for trips, sports, outings, social activities, etc."
+                        ]
+                },
+                {
+                        "tag":"scholarship",
+                        "patterns":[
+                                "scholarship",
+                                "Is scholarship available",
+                                "scholarship engineering",
+                                "scholarship fe",
+                                "scholarship se",
+                                "scholarship te",
+                                "scholarship be",
+                                "available scholarships",
+                                "scholarship for computer engineering",
+                                "scholarship for automobile engineering",
+                                "scholarship for IT engineering",
+                                "scholarship for mechanical engineering",
+                                "scholarship for civil engineering",
+                                "scholarship for extc engineering",
+                                "scholarship for electrical engineering",
+                                "list of scholarship",
+                                "comps scholarship",
+                                "IT scholarship",
+                                "mechanical scholarship",
+                                "civil scholarship",
+                                "electrical scholarship",
+                                "extc scholarship",
+                                "automobile scholarship",
+                                "first year scholarship",
+                                "second year scholarship",																				
+                                "third year scholarship",
+                                "fourth year scholarship"
+                        ],
+                        "responses":[
+                                "Many government scholarships are supported by MERU. For details and updates visit <a target=\"_blank\" href=\"https://mahadbtmahait.gov.in/Home/Index\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"faculty",
+                        "patterns":[
+                                "faculty",
+                                "faculty details",
+                                "faculty fe",
+                                "faculty se",
+                                "faculty te",
+                                "faculty be",
+                                "computer faculty",
+                                "IT faculty",
+                                "mechanical faculty",
+                                "automobile faculty",
+                                "extc faculty",
+                                "electrical faculty",
+                                "civil faculty",
+                                "engineering faculty",
+                                "list of faculty",
+                                "first year faculty",
+                                "second year faculty",
+                                "third year faculty",
+                                "fourth year  faculty",
+                                "give faculty details",
+                                "tell me about the faculty",
+                                "how is the faculty",
+                                "staff",
+                                "please give information about faculty",
+                                "faculty information",
+                                "faculty?"
+                        ],
+                        "responses":[
+                                "MERU has a highly qualified and experienced faculty. For details visit <a target=\"_blank\" href=/\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"student portal",
+                        "patterns":[
+                                "student portal",
+                                "give student portal link",
+                                "student portal?",
+                                "where is student portal",
+                                "MERU student portal",
+                                "how to get student portal",
+                                "where to get fees receipt",
+                                "please provide student portal link",
+                                "where to login"
+                        ],
+                        "responses":[
+                                "For student portal link visit<a target=\"_blank\" href=/\"https://phcetstudentportal.mes.ac.in/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"faculty portal",
+                        "patterns":[
+                                "faculty portal",
+                                "give student faculty link",
+                                "faculty portal?",
+                                "where is faculty portal",
+                                "MERU fcaulty portal",
+                                "how to get faculty portal",
+                                "please provide faculty portal link"
+                        ],
+                        "responses":[
+                                "For Faculty portal link visit<a target=\"_blank\" href=/\"https://phcet.ac.in/faculty/faculty-directory/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"sports",
+                        "patterns":[
+                                "sports and games",
+                                "give sports details",
+                                "sports infrastructure",
+                                "sports facilities",
+                                "MERU sports facilities",
+                                "information about sports",
+                                "please provide sports and games information"
+                        ],
+                        "responses":[
+                                "MERU encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://phcet.ac.in/students/sports-and-games/\">here</a>"
+                        ]
+                },
+                {
+                        "tag":"fest",
+                        "patterns":[
+                                "fests",
+                                "University fest",
+                                "euforia",
+                                "tech euforia",
+                                "MERU fests",
+                                "information fest",
+                                "please provide fests information",
+                                "euforia information",
+                                "tech euforia information",
+                                "tell me about University fests",
+                                "tell me about tech euforia",
+                                "tell me about euforia",
+                                "information euforia",
+                                "please provide euforia information",
+                                "please provide tech euforia information",
+                                "tech euforia details",
+                                "euforia details",
+                                "give me euforia details",
+                                "give me tech euforia details",
+                                "give me fests details",
+                                "fests?"
+                        ],
+                        "responses":[
+                                "MERU encourages all-round development of students and hence organizes vibrant fests like Euforia and Tech Euforia in the campus. For more details visit<a target=\"_blank\" href=/\"https://phcet.ac.in/students/campus-fest/euforia/\">here</a>"
+                        ]
+                }
+                
+        ]
+}
