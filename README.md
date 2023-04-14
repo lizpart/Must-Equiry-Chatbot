@@ -1,5 +1,5 @@
 # Enquiry Chatbot using Flask
-This is an enquiry chatbot built using Flask, a lightweight web framework for Python. The chatbot is designed to provide answers to common questions related to a specific topic or domain, such as customer support or product information.
+This is an enquiry chatbot built using Flask, a lightweight web framework for Python. The chatbot is designed to provide answers to common questions related to a specific topic or domain, such as a student or persons who want information concerning Meru University of Science and Technology.
 
 ## Requirements
 To run the chatbot, you'll need to have the following software installed on your machine:
