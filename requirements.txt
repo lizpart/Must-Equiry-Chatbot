@@ -4,3 +4,6 @@ json5
 numpy
 tensorflow
 keras
+flask_cors
+pickle
+json
