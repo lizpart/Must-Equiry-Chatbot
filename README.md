@@ -10,7 +10,7 @@ Usage
 To start the chatbot, navigate to the project directory in your terminal and run the following command:
 
 ## Copy code
-`python app.py`
+`python main.py`
 This will start a local server on your machine, which you can access in your web browser by navigating to http://localhost:5000.
 
 Once you're on the chatbot page, you can begin typing in your questions and the chatbot will respond with the most relevant answer it can find. You can also add new questions and answers to the chatbot's knowledge base by editing the knowledge.json file in the project directory.
