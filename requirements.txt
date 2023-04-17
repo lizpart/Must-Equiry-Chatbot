@@ -5,3 +5,4 @@ numpy
 tensorflow
 keras
 flask_cors
+--upgrade pip
