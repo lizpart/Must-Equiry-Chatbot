@@ -1,8 +1,0 @@
-nltk
-Flask
-json5
-numpy
-tensorflow
-keras
-flask_cors
---upgrade pip
